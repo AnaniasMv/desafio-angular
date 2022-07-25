@@ -1,0 +1,27 @@
+<h2>app</h2>
+<a class="btn btn-primary">add user</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of USUARIOS ">
+            <td> <input type="checkbox" name="checkbox"></td>
+            <td><img [src]="user.imageUrl" alt="img user" width="90" height="95"></td>
+            <td id="name">{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>
+            </td>
+            <td>
+                <a class="btn btn-primary">Edit</a>
+                <button class="btn btn-danger">Delete</button>
+            </td>
+        </tr>
+
+    </tbody>
+</table>

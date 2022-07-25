@@ -1,0 +1,12 @@
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#name{
+    color: blue;
+}
